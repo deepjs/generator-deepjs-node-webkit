@@ -1,0 +1,16 @@
+{
+  "name": "<%= applicationName %>",
+  "main": "./index.html",
+  "version": "<%= version %>",
+  "homepage": "<%= githubURL %>",
+  "authors": [
+    "<%= author %> <<%= email %>>"
+  ],
+  "description": "<%= description %>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bootstrap": ">= v3.0.3",
+   	"jquery": ">= 2.0.3"
+  }
+}

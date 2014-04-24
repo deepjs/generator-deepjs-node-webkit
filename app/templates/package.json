@@ -1,0 +1,30 @@
+{
+  "name": "<%= applicationName %>",
+  "main": "./index.html",
+  "version": "<%= version %>",
+  "homepage": "<%= githubURL %>",
+  "authors": [
+    "<%= author %> <<%= email %>>"
+  ],
+  "description": "<%= description %>",
+  "license": "MIT",
+  "dependencies": {
+    "amdefine": "*",
+    "rql": ">=0.3.1",
+    "deepjs": "git+ssh://git@github.com:deepjs/deepjs.git",
+    "deep-jquery": "git+ssh://git@github.com:deepjs/deep-jquery.git",
+    "deep-routes": "git+ssh://git@github.com:deepjs/deep-routes.git",
+    "deep-swig": "git+ssh://git@github.com:deepjs/deep-swig.git",
+    "deep-node": "git+ssh://git@github.com:deepjs/deep-node.git",
+    "deep-node-webkit": "git+ssh://git@github.com:deepjs/deep-node-webkit.git",
+    "deep-widgets": "git+ssh://git@github.com:deepjs/deep-widgets.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "deep-shell":"*",
+    "grunt": "~0.4.4",
+    "grunt-requirejs": "^0.4.1"
+  }
+}
